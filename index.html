@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grant - Jewelry Discount</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
@@ -13,11 +24,11 @@
       /></a>
       <nav>
         <ul>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Promotions</a></li>
-          <li><a href="">Collections</a></li>
-          <li><a href="">Delivery</a></li>
-          <li><a href="">About us</a></li>
+          <li><a class="head-navig" href="">Catalog</a></li>
+          <li><a class="head-navig" href="">Promotions</a></li>
+          <li><a class="head-navig" href="">Collections</a></li>
+          <li><a class="head-navig" href="">Delivery</a></li>
+          <li><a class="head-navig" href="">About us</a></li>
         </ul>
       </nav>
       <ul>
@@ -54,11 +65,13 @@
           />
         </li>
       </ul>
-      <a href="tel:+79219158506">+7 (921) 915-85-06</a>
+      <address>
+        <a class="head-address" href="tel:+79219158506">+7 (921) 915-85-06</a>
+      </address>
     </header>
     <!-- Main -->
     <main>
-      <!-- Section Heero -->
+      <!-- Section Hero -->
       <section>
         <ul>
           <li>
@@ -70,12 +83,12 @@
             />
           </li>
           <li>
-            <h1>Jewelry that will last you a lifetime</h1>
-            <p>
+            <h1 class="hero-title">Jewelry that will last you a lifetime</h1>
+            <p class="hero-text">
               Our goal is to preserve family traditions by creating jewelry
               using high quality materials.
             </p>
-            <a href="#">View catalog</a>
+            <a class="btn_catalog" href="#">View catalog</a>
           </li>
           <li>
             <img
@@ -106,7 +119,7 @@
               which you can not only order jewelry at the best prices, but also
               increase your personal discount.
             </p>
-            <a href="#">Learn more</a>
+            <a class="btn_information" href="#">Learn more</a>
           </li>
         </ul>
       </section>
@@ -127,10 +140,10 @@
               width="1205"
               height="642"
             />
-            <div>
+            <div class="slider">
               <h4>Diamond pendant as a gift for purchases over $5,000 *</h4>
-              <a href="#">View catalog</a>
-              <p>*Promotion period is limited</p>
+              <a class="btn_catalog" href="#">View catalog</a>
+              <p class="text-small">*Promotion period is limited</p>
             </div>
           </li>
         </ul>
@@ -162,7 +175,7 @@
               entire service life of the product, which is confirmed by the
               “Product Quality Certificate”.
             </p>
-            <a href="#">Learn more</a>
+            <a class="btn_information" href="#">Learn more</a>
           </li>
         </ul>
       </section>
