@@ -8,9 +8,13 @@ color: #212121;
 }
 
 h1, h2, h3 {
-font-family: 'Cormorant', serif;
+    margin: 0;
+    font-family: 'Cormorant', serif;
 }
 
+p {
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: #212121;
@@ -18,14 +22,49 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: calc(1920px - 360px * 2); 
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
+
+.logo {
+    padding-right: 68px;
+}
+
+.header-expanded {
+    max-width: calc(1920px - 341px - 126px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-navig{
+    display: flex;
+}
+
+.head-navig-list {
+    display: flex;
+    gap: 54px;
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
 
 .head-navig {
     color: #212121;
     font-size: 18px;
     font-weight: 500;
+    display: block;
 }
 
 .head-navig:hover,
@@ -33,12 +72,28 @@ ul {
     font-weight: 700;
 }
 
+.head-icons {
+    display: flex;
+    padding-right: 77px;
+    gap: 32px;
+}
+
+.head-icons-item {
+    display: flex;
+    
+}
+
+.head-contact {
+    display: flex;
+}
 
 .head-address {
     color: #212121;
     text-align: right;
     font-size: 18px;
     font-weight: 500;
+    font-style: normal;
+    display: block;
 }
 
 .head-address:hover,
