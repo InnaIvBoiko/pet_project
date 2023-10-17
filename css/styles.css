@@ -103,15 +103,28 @@ img {
 
 /* Section Hero */
 
+.hero .container {
+    width: 1920px;
+}
+
+.hero-page {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
 .hero-title {
     font-size: 84px;
     font-weight: 600;
     line-height: 1.2;
+    margin-bottom: 71px;
 }
 
 .hero-text {
     font-size: 26px;
     line-height: 1.5;
+    width: 692px;
+    margin-bottom: 73px;
 }
 
 .btn_catalog {
@@ -145,10 +158,28 @@ img {
 
 /* Section Loyalty system */
 
+.loyalty-system {
+    display: flex;
+    padding-top: 72px;
+}
+
+.loyalty-system-list {
+    display: flex;
+    gap: 107px;
+    
+}
+
 h2 {
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.loyalty-system-title {
+    padding-top: 123px;
+}
+
+.loyalty-system-text {
+    padding-bottom: 84px;
 }
 
 .btn_information {
@@ -165,12 +196,33 @@ h2 {
     border: 2px solid #212121;
 }
 
+.offers {
+    padding-top: 150px;
+}
+.offers-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers-title {
+    padding-bottom: 45px;
+}
+
+.offers-text {
+    width: 566px;
+    margin-bottom: 85px;
+}
+
 .slider { 
     background: rgba(255, 255, 255, 0.60);
     backdrop-filter: blur(42px);
     width: 635px;
     height: 340px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h3 {
     text-align: center;
