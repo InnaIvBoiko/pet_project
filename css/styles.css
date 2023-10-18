@@ -33,7 +33,7 @@ img {
 .container {
     max-width: calc(1920px - 360px * 2); 
     display: flex;
-    align-items: center;
+    
 }
 
 /* Header */
@@ -264,6 +264,13 @@ h5 {
     text-transform: uppercase;
 }
 
+/* footer */
+
 footer {
     background-color: #F2F0EE;
+}
+
+.footer-info-menu {
+    display: flex;
+    justify-content: space-between;
 }
