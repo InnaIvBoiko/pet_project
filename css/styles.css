@@ -32,11 +32,16 @@ img {
 
 .container {
     max-width: calc(1920px - 360px * 2); 
-    display: flex;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header */
+
+.header-page {
+    display: flex;
+    width: 100%;
+}
 
 .logo {
     padding-right: 68px;
@@ -58,6 +63,8 @@ img {
     gap: 54px;
     padding-top: 82px;
     padding-bottom: 82px;
+    margin-right: 117px;
+    flex-wrap: nowrap;
 }
 
 .head-navig {
@@ -74,17 +81,12 @@ img {
 
 .head-icons {
     display: flex;
-    padding-right: 77px;
     gap: 32px;
-}
-
-.head-icons-item {
-    display: flex;
-    
 }
 
 .head-contact {
     display: flex;
+    align-items: center;
 }
 
 .head-address {
