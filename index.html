@@ -274,13 +274,25 @@
                   Be the first to know about discounts and new products and current promotions - subscribe to our
                   newsletter.
                 </p>
-                <input type="text" class="newsletter-form-input" name="user-name" placeholder="Your name" />
+                <input
+                  type="text"
+                  class="newsletter-form-input"
+                  name="user-name"
+                  placeholder="Your name"
+                  pattern="[a-zA-Z]+"
+                  required
+                />
               </label>
               <label class="newsletter-form-label">
-                <input type="email" class="newsletter-form-input" name="user-email" placeholder="Your Email" />
+                <input type="email" class="newsletter-form-input" name="user-email" placeholder="Your Email" required />
               </label>
               <label class="newsletter-form-checkbox-label">
-                <input type="checkbox" class="newsletter-form-checkbox" name="newsletter-form-checkbox" />
+                <input
+                  type="checkbox"
+                  class="newsletter-form-checkbox"
+                  name="newsletter-form-checkbox"
+                  value="privacy-policy"
+                />
                 By clicking on the &#34;Subscribe&#34; button, you consent to the processing of personal data and agree
                 to the privacy policy.
               </label>

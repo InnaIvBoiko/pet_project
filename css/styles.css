@@ -9,7 +9,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
   font-family: 'Cormorant', serif;
 }
@@ -20,6 +22,11 @@ p {
 a {
   text-decoration: none;
   color: #212121;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 ul {
@@ -378,6 +385,7 @@ h5 {
 
 .carts {
   display: flex;
+  justify-content: center;
   gap: 138px;
 }
 
